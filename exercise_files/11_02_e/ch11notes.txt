@@ -1,0 +1,5 @@
+A library in Python just means imported files.
+When people say Python libraries, they could either be talking about a module or a package, but usually they're talking about a package.
+
+A module is just a Python file.
+A package is a collection of modules. It's a collection of related Python files all bundled up into a single package.
