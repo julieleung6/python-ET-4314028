@@ -1,4 +1,4 @@
-from argparse import ArgumentParser 
+from argparse import ArgumentParser #ArgumentParser provides the command line argument, -h by default.
 
 parser = ArgumentParser()
 

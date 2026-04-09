@@ -3,3 +3,23 @@ When people say Python libraries, they could either be talking about a module or
 
 A module is just a Python file.
 A package is a collection of modules. It's a collection of related Python files all bundled up into a single package.
+
+
+
+Example, here we have a simple package called "numbers". And this contains two modules factors and primes. Also, there is a very important file called "__init__.py". Inside the file, it is completely blank. But it's required to tell Python that this is a package, not just a random collection of Python files in a folder.
+
+Factors contains a single function called getFactors and just returns a list of all the factors of the number you pass in.
+
+And primes has two functions in it.
+isPrime takes in a number and returns whether or not that number is a prime.
+And listPrimes returns a list of primes up to that number.
+
+Note: The __init__.py is like the constructor or the initialization function of a class has two dashes before and after the init.
+
+The modules in these packages are generally closely related in functionality, so it can be useful to let them reference each other.
+
+
+__main__ is the default module name for the sort of main piece of code that you're running directly.
+
+
+One common pattern in Python when writing modules and packages is to take advantage of this __name__ variable by creating code that will only run if your module is called directly vs being imported.

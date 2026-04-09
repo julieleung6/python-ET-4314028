@@ -14,3 +14,8 @@ def listPrimes(max):
     return foundPrimes
     
 print(f'primes.py module name is {__name__}')
+
+
+#helper texts
+if __name__ == '__main__':
+    print('This is a module! Please import using:\nimport primes')
